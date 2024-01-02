@@ -1,0 +1,153 @@
+.separate-li {
+   padding: 10px 0 0 0;
+   cursor: auto;
+}
+
+.leftSpace {
+   margin-left: 150px;
+}
+
+.padding {
+   padding: 15px 10px 0 50px;
+}
+
+@media (max-width : 600px) {
+   .upbar {
+      display: none;
+   }
+
+   .header {
+      background-color: #fdd835;
+      color: black;
+   }
+
+   nav {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: none;
+   }
+
+   .innLogo {
+      display: block;
+      display: flex;
+   }
+
+   .logo,
+   .navFloat,
+   .search,
+   .subSearchContainer,
+   .login,
+   .headerimg2,
+   .headerimg3,
+   .headerimg4 {
+      display: none;
+   }
+
+   .ri-menu-2-line {
+      display: block;
+   }
+
+   .resico {
+      display: block;
+      padding-top: 4%;
+   }
+
+   .img1 {
+      height: 80%;
+      width: 80%;
+      border-radius: 20px;
+   }
+
+   .img2,
+   .img3 {
+      display: none;
+   }
+
+   .card1 {
+      display: none;
+   }
+
+   .img-inner4,
+   .img-inner5,
+   .img-inner6,
+   .img-inner7,
+   .img-inner8 {
+      display: none;
+   }
+
+   .img-inner1,
+   .img-inner2,
+   .img-inner3 {
+      height: 100%;
+      width: 100%;
+      margin: 0px 8px;
+      border-radius: 20px;
+   }
+
+   .img-inner3 p {
+      flex-wrap: wrap;
+      text-align: center;
+   }
+
+   .box1 {
+      display: none;
+   }
+
+   .card3 {
+      display: none;
+   }
+
+   .card4 ul {
+      display: flex;
+      flex-wrap: wrap;
+      }
+
+   .card4-img-inner4,
+   .card4-img-inner5,
+   .card4-img-inner6{
+      display: none;
+   }
+   .card4-img-inner1,
+   .card4-img-inner2,
+   .card4-img-inner3{
+       height: 100%;
+       width: 100%;
+       margin: 0 0 0 16vw;
+       cursor: pointer;
+   }
+   .card5{
+      display: none;
+   }
+   .resBan1{
+      display: block;
+   }
+   .resBan2{
+      display: block;
+   }
+   .resBan2-inn-img1{
+      display: block;
+   }
+   .resBan2-inn-img2{
+      display: block;
+   }
+
+   .main-footer{
+   display: none;
+ }
+ .Responsive-footer{
+      display: inline-flex;
+ }
+ 
+ .ftr-res-box1{
+     display:block;
+ }
+ .ftr-res-box2{
+     display:block;
+ }
+ .ftr-res-box3{
+     display:block;
+ }
+.ftr-res-box4{
+     display:block;
+}
+}
